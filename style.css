@@ -29,6 +29,14 @@ main {
   max-width: 1400px;
 }
 
+.high-rating {
+  color: #3ba17c;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
 .park-display {
   box-shadow: 0 0 3px 2px rgba(115, 66, 48, 0.2);
   border-radius: 6px;
@@ -38,6 +46,7 @@ main {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  background-color: white;
 }
 
 .park-display > h2 {
@@ -60,6 +69,11 @@ main {
   margin-top: 4px;
   padding: 4px;
   flex: 1;
+}
+
+.header-statement {
+  color: #ffffff;
+  font-size: 1.2rem;
 }
 
 .stats {
@@ -105,6 +119,12 @@ main {
   color: rgba(255, 255, 255, 0.5);
 }
 
+.sorter {
+  width: 90%;
+  margin: 0 auto;
+  padding: 6px;
+}
+
 @media screen and (min-width: 600px) {
   main {
     grid-template-columns: repeat(2, 1fr);
@@ -122,3 +142,5 @@ main {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
+
